@@ -7,8 +7,8 @@ import observer.clase.Restaurant;
 public class Main {
     public static void main(String[] args) {
         IClient client1 = new Client("George");
-        IClient client2 = new Client("George");
-        IClient client3 = new Client("George");
+        IClient client2 = new Client("Enel");
+        IClient client3 = new Client("Mihai");
 
         Restaurant restaurant = new Restaurant("Tratoria Moza");
 

@@ -1,15 +1,16 @@
 package restaurant.adapter.bucatarie;
 
+import restaurant.adapter.bar.ISoftBar;
 import restaurant.adapter.bar.SoftBar;
 
-public class AdapterRestaurant extends SoftBar implements ISoftRestaurant{
-    private String denumire;
-    private double totalPlataNota;
+public class AdapterRestaurant extends SoftBar implements ISoftBar {
 
     public AdapterRestaurant(String denumire) {
-        this.denumire = denumire;
-        this.totalPlataNota = totalPlataNota;
+        super(denumire);
     }
 
-
+    @Override
+    public void printeazaNotaBauturi(double totalPlata) {
+        super.printeazaNotaBauturi(totalPlata);
+    }
 }

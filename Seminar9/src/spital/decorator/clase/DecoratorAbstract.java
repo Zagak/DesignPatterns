@@ -14,3 +14,4 @@ public abstract class DecoratorAbstract implements FurnizeazaRezultat{
 
     public abstract void afisareOnline(String diagnostic);
 }
+

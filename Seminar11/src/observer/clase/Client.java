@@ -9,6 +9,6 @@ public class Client implements IClient{
 
     @Override
     public void primesteNotificare(String message) {
-        System.out.println(this.nume+" ai primit o notificare");
+        System.out.println(this.nume+" ai primit o notificare : "+message);
     }
 }
