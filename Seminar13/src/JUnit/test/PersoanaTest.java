@@ -89,4 +89,7 @@ public class PersoanaTest {
         assertEquals(persoana1.getCNP(),persoana2.getCNP());
         assertEquals(persoana1.getNume(),persoana2.getNume());
     }
+
+
+
 }
